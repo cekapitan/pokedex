@@ -3,11 +3,11 @@ package main
 import "testing"
 
 func TestCleanInput(t *testing.T) {
-	cases := []struct {
+	type testCases struct {
 		input    string
 		expected []string
 	}
-	{
+	tests := []testCases{
 		{
 			input:    "  hello  world  ",
 			expected: []string{"hello", "world"},
@@ -15,8 +15,9 @@ func TestCleanInput(t *testing.T) {
 		// add more casees here
 	}
 
-	for _, c := range cases {
+	for _, c := range tests {
 		actual := cleanInput(c.input)
+		if len()
 		// Check the length of the actual slice
 		// if they don't match, use t.Errorf to print an error message
 		// and fail the test
@@ -26,6 +27,7 @@ func TestCleanInput(t *testing.T) {
 			// Check each word in the slice
 			// if they don't match, use t.Errorf to print an error message
 			// and fail the test
+			
 		}
 	}
 }
