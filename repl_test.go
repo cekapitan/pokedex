@@ -1,4 +1,4 @@
-package pokedex_test
+package main
 
 import "testing"
 
