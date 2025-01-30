@@ -8,6 +8,6 @@ func main() {
 	fmt.Println("Hello, World!")
 }
 
-func cleanInput(text string) []string {
-	return nil
+func cleanInput(text int) []string {
+	return make([]string, text)
 }
