@@ -4,10 +4,11 @@ import (
 	"fmt"
 )
 
-func main() {
-	fmt.Println("Hello, World!")
+func cleanInput(text int) []string {
+
+	return []string{}
 }
 
-func cleanInput(text int) []string {
-	return make([]string, text)
+func main() {
+	fmt.Println("Hello, World!")
 }
